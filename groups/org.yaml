@@ -1,16 +1,18 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: ejie-corp
-  description: The Ejie-corp organization
+  name: demo-corp
+  description: The demo-corp organization
   links:
-    - url: https://www.ejie.euskadi.eus/webejie00-home/es
+    - url: http://www.backstage.io/
       title: Website
+    - url: https://meta.wikimedia.org/wiki/
+      title: Intranet
 spec:
   type: organization
   profile:
-    displayName: Ejie 
-    email: ejie@example.com
+    displayName: Demo Corp
+    email: demo@example.com
     picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
   children: [it]
 ---

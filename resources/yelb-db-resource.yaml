@@ -8,4 +8,4 @@ metadata:
 spec:
   type: database
   owner: team-a
-  system: service1-system
+  system: yelb
