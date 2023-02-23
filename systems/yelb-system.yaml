@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: yelb
-  description: YELB Application
+  name: service-001
+  description: Service 001
   annotations:
     'backstage.io/techdocs-ref': dir:.
 spec:
