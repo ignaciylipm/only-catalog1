@@ -16,5 +16,5 @@ spec:
   type: service
   lifecycle: experimental
   owner: team-b
-  system: yelb
+  system: service-001
   dependsOn: [Component:yelb-appserver]

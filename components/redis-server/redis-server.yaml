@@ -13,5 +13,5 @@ spec:
   type: service
   lifecycle: experimental
   owner: team-java
-  system: yelb
+  system: service-001
   dependsOn: [Component:yelb-db]
