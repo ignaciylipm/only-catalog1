@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: team-b
+  name: team-spring
   description: Team Spring
 spec:
   type: team
@@ -22,4 +22,4 @@ spec:
     displayName: Spring User
     email: spring-user@vmware.com
     picture: https://example.com/staff/jenny-with-party-hat.jpeg
-  memberOf: [team-b]
+  memberOf: [team-spring]

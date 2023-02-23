@@ -15,6 +15,6 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: team-b
+  owner: team-spring
   system: service-001
   dependsOn: [Component:yelb-appserver]
