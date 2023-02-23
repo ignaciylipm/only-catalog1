@@ -2,12 +2,12 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: team-b
-  description: Team B
+  description: Team Spring
 spec:
   type: team
   profile:
     # Intentional no displayName for testing
-    email: team-b@example.com
+    email: team-spring@example.com
     picture: https://avatars.dicebear.com/api/identicon/team-b@example.com.svg?background=%23fff&margin=25
   parent: development
   children: []
@@ -19,7 +19,7 @@ metadata:
   name: kapplegate
 spec:
   profile:
-    displayName: Kris Applegate
-    email: kapplegate@vmware.com
+    displayName: Spring User
+    email: spring-user@vmware.com
     picture: https://example.com/staff/jenny-with-party-hat.jpeg
   memberOf: [team-b]
